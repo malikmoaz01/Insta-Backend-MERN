@@ -6,21 +6,33 @@ This repository contains the backend implementation for a simplified version of 
 Features:
 
     User Management: Allows users to sign up, sign in, edit their profile, and delete their account.
+    
     Post Management: Enables users to create, view, update, and delete posts. Posts can include images, captions, and other metadata.
+    
     Like and Comment: Users can like posts and add comments to them, enhancing engagement and interaction.
+    
     Follow and Unfollow: Supports following and unfollowing other users to stay updated with their posts.
+    
     Feed: Generates a personalized feed for each user, displaying posts from users they follow.
+    
     Search: Provides search functionality to find users and posts based on keywords or hashtags.
 
 Technologies Used:
 
     MongoDB: NoSQL database used to store user data, post data, and other related information.
+    
     Express.js: Web application framework for building robust and scalable backend APIs.
+    
     React.js: JavaScript library for building interactive user interfaces, used for the frontend (not included in this repository).
+    
     Node.js: JavaScript runtime environment for executing server-side code.
+    
     Mongoose: MongoDB object modeling tool for Node.js, used to define schemas and interact with the database.
+    
     JWT (JSON Web Tokens): Secure method for transmitting information between parties as a JSON object, used for user authentication and authorization.
+    
     bcrypt: Library for hashing passwords securely before storing them in the database.
+    
     Express Validator: Middleware for Express.js used to validate incoming requests and sanitize user input.
 
 Usage:
