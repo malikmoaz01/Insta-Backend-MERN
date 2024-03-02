@@ -1,7 +1,8 @@
 Instagram Backend Using MERN Stack
 
 Overview:
-This repository contains the backend implementation for a simplified version of Instagram using the MERN (MongoDB, Express.js, React.js, Node.js) stack. It provides a RESTful API to manage users, posts, likes, comments, and other functionalities typically found in a social media application.
+This repository contains the backend implementation for a simplified version of Instagram using the MERN (MongoDB, Express.js, React.js, Node.js) stack. 
+It provides a RESTful API to manage users, posts, likes, comments, and other functionalities typically found in a social media application.
 
 Features:
 
@@ -37,27 +38,19 @@ Technologies Used:
 
 Usage:
 
-    Clone the Repository: Clone this repository to your local machine using the Git command:
-
-    bash
-
 git clone https://github.com/malikmoaz01/insta-Backend-MERN.git
 
 Install Dependencies: Navigate to the project directory and install the required dependencies using npm or yarn:
 
-bash
-
-cd instagram-backend
+cd insta-Backend-MERN
 npm install
 
-Set Up Environment Variables: Create a .env file in the root directory and define environment variables such as MongoDB connection URI, JWT secret key, etc.
+Set Up Environment Variables: 
+            Create a .env file in the root directory and define environment variables such as MongoDB connection URI, JWT secret key, etc.
 Start the Server: Run the following command to start the backend server:
 
-sql
-
-    npm start
-
-    Testing the API: Use tools like Postman or curl to test the API endpoints. Refer to the API documentation or source code for available endpoints and request payloads.
+            *npm start*
+Testing the API: Use tools like Postman or curl to test the API endpoints. Refer to the API documentation or source code for available endpoints and request payloads.
 
 Contributing:
 Contributions to this project are welcome! You can contribute by adding new features, fixing bugs, improving documentation, or suggesting enhancements. Please ensure that your contributions adhere to the project's coding standards and guidelines.
