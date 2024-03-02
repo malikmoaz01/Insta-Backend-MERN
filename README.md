@@ -43,13 +43,15 @@ git clone https://github.com/malikmoaz01/insta-Backend-MERN.git
 Install Dependencies: Navigate to the project directory and install the required dependencies using npm or yarn:
 
 cd insta-Backend-MERN
+
 npm install
 
 Set Up Environment Variables: 
             Create a .env file in the root directory and define environment variables such as MongoDB connection URI, JWT secret key, etc.
 Start the Server: Run the following command to start the backend server:
 
-            *npm start*
+            npm start
+            
 Testing the API: Use tools like Postman or curl to test the API endpoints. Refer to the API documentation or source code for available endpoints and request payloads.
 
 Contributing:
